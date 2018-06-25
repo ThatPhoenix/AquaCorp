@@ -5,7 +5,6 @@
   "main": "PRIDe2.js",
   "scripts": {
     "start": "node PRIDe2.js",
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/coolpixire/Trident-pride"
