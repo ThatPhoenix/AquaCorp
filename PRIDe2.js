@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const Version = "2.0"
 const prefix = ("$")
-const sleep = require("sleep")
 client.on('ready', () => { client.user.setActivity('Helping Redstoneclaw101 Build Trident Enterprises And PRIDe Systems')  
 console.log(' [PROCESS] FREIND BOT Online')
 });
