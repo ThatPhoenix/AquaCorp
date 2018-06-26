@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const Version = "2.0"
-const prefix = ("$")
-client.on('ready', () => { client.user.setActivity('Helping Redstoneclaw101 Build Trident Enterprises And PRIDe Systems')  
+const prefix = (";")
+client.on('ready', () => { client.user.setActivity('Hey im PRIDe! [;Cmds]')  
 console.log(' [PROCESS] FREIND BOT Online')
 });
 const Authorized = ("Phoenix Redstoneclaw101")
