@@ -405,14 +405,13 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === prefix +'Cmds') {
         var embed = new Discord.RichEmbed();
-    embed.setTitle('CB7 Cmds')
-      embed.setDescription(`Shows Cmds For CB7 Bot`);
+    embed.setTitle('PRIDe Cmds')
+      embed.setDescription(`Shows Cmds For PRIDe Bot`);
       embed.setColor('#009000');
       embed.addField('Cmds: Cmds [Shows This Message] Ping [Shows A Response Time] Eval [Only Authorized People Can Do This] serverinfo [shows server info] Botinfo [Shows  Bot info nothing else] Kick [Kicks a member]');
       embed.addField('Vips: None :(')
-      embed.addField('For More Information Please Contact a Owner Of CB7')
-      embed.addField('Support Server: https://discord.gg/ZHhZWfE')
-      embed.setFooter("We Hope You Enjoy Your Time With CB7")
+      embed.addField('For More Information Please Contact a Owner Of PRIDe')
+      embed.setFooter("We Hope You Enjoy Your Time With PRIDe")
       embed.setTimestamp()
     
       message.channel.sendEmbed(embed);
