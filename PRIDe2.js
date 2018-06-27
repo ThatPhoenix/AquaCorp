@@ -234,8 +234,6 @@ const commands = {
 client.login(process.env.TOKEN);
 
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
 const Version = "2.0"
 const prefix = (";")
 client.on('ready', () => { client.user.setActivity('I have no ;help or ;cmds command :(')  
