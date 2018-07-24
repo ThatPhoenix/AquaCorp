@@ -6,7 +6,7 @@ const client = new Discord.Client
 bot.commands = new Discord.Collection();
 prefix = ("-")
 
-fs.readdir("./commands/", (err, files) => {
+fs.readdir("./cmds/", (err, files) => {
 
   if(err) console.log(err);
   let jsfile = files.filter(f => f.split(".").pop() === "js");
