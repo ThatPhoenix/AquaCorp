@@ -117,7 +117,7 @@ bot.on('message', message => {
 
 
 bot.on('message', message => {
-	if (message.author.id === "441980353242988545") {
+	if (message.author.id === "255750690784149504") {
 		let msg = message.content;
 
 		if (msg.startsWith(">eval")) {
