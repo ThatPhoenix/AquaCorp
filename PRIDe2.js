@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const Aqua = new Discord.Client
 prefix = ("!")
-
+const error = new Discord.WebhookClient(("542022879919996940") , ("2AZH6h0E2hgm7illGxX6xzJQXB2p1msDqZHBLpNwyZByzG1rGGTyExKoBxQ0PO1H3XkM")
 Aqua.on("message", message => {
   if (message.author.bot) return;
   if(message.content.indexOf(prefix) !== 0) return;
@@ -181,4 +181,5 @@ Aqua.channels.get("542015564059639830").send(`${member} has joined Keep a eye on
 			
 
 
-Aqua.login(process.env.TOKEN);
+Aqua.login(process.env.TOKEN).catch(e => {
+error.send(`Phoenix! Heelp! I had a fall ** ${e} **`)
