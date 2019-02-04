@@ -183,4 +183,4 @@ Aqua.channels.get("542015564059639830").send(`${member} has joined Keep a eye on
 
 Aqua.login(process.env.TOKEN).catch(e => {
 error.send(`Uh Oh :sos: ** ${e} ** `)
-}
+});
