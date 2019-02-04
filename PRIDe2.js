@@ -173,7 +173,11 @@ Aqua.on('message', message => {
 })
 
 
+Aqua.on('guildMemberAdd', member => {
 
+
+Aqua.channels.get("542015564059639830").send(`${member} has joined Keep a eye on them - Phoenix")
+		  });
 			
 
 
