@@ -2,7 +2,10 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const Aqua = new Discord.Client
 prefix = ("!")
+
+const start = new Discord.WebhookClient(("566997311406735413" , ("tkFWcBIr2L0KqRAIs4Mm4Qp9ClHWNcVjgq3IULI2Ppbs0-Yssfrs9SiFsWa83mNf5yxH"))
 const error = new Discord.WebhookClient(("542022879919996940") , ("2AZH6h0E2hgm7illGxX6xzJQXB2p1msDqZHBLpNwyZByzG1rGGTyExKoBxQ0PO1H3XkM"))
+
 Aqua.on("message", message => {
   if (message.author.bot) return;
   if(message.content.indexOf(prefix) !== 0) return;
