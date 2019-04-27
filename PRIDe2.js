@@ -21,7 +21,7 @@ Aqua.on("message", message => {
 });
 
 Aqua.on("ready", async () => {
-	error.send("**System:** Connected to DiscordAPI :white_check_mark:") 
+
   console.log(`${Aqua.user.username} is online on ${Aqua.guilds.size} servers! `);
   Aqua.user.setActivity(`In Aqua Corporation`, {type: "PLAYING"});
 
